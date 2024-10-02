@@ -1,65 +1,144 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tại sao con người cần chết</title>
+    <title>Bài Tập văn 7/30</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
-            background-color: #111;
-            color: #FFF;
-            margin: 0;
+            background-color: #f0f4f8;
+        }
+        .card {
+            margin-top: 20px;
+            background-color: #ffffff;
+            border-radius: 15px;
             padding: 20px;
-            font-family: Arial, sans-serif;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
         }
-
-        h1, p {
-            font-size: 2em;
+        h1, h2 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
         }
-
-        /* Random fonts to make it sketchy */
-        .randomFont1 { 
-            font-family: 'Comic Sans MS', cursive, sans-serif; 
+        .personal-info {
+            background-color: #007bff;
+            color: white;
         }
-        .randomFont2 { 
-            font-family: 'Courier New', Courier, monospace; 
+        .personal-info h2 {
+            font-family: 'Arial', sans-serif;
+            color: #fff;
         }
-        .randomFont3 { 
-            font-family: 'Times New Roman', Times, serif; 
+        .info-item {
+            font-weight: bold;
+            padding: 10px;
+            border-bottom: 1px solid #fff;
         }
-        .randomFont4 { 
-            font-family: 'Brush Script MT', cursive; 
+        .info-item:last-child {
+            border-bottom: none;
         }
-        .randomFont5 { 
-            font-family: 'Papyrus', fantasy; 
+        .sub-list {
+            margin-left: 15px;
         }
-
-        /* Blinking text to make it look sketchier */
-        .blinking {
-            animation: blink 3s step-start infinite;
+        .do-section {
+            background-color: #d4edda;
+            padding: 15px;
+            border-radius: 10px;
         }
-
-        @keyframes blink {
-            50% {
-                opacity: 0;
-            }
+        .dont-section {
+            background-color: #f8d7da;
+            padding: 15px;
+            border-radius: 10px;
+        }
+        .card ul li {
+            margin-bottom: 10px;
         }
     </style>
 </head>
 <body>
 
-    <!-- Sketchy random title -->
-    <h1 class="randomFont1 blinking">Welcome to Randomness</h1>
+    <div class="container">
+        <!-- Student Info Card (Hardcoded) -->
+        <div class="card personal-info text-center">
+            <h2>Câu 7/trang 30</h2>
+            <div class="info-item">Họ và Tên: Lê Hiếu Nghĩa</div>
+            <div class="info-item">Trường: THCS Hùng Vương</div>
+            <div class="info-item">Lớp: 9A3</div>
+            <div class="info-item">tổ: 2</div>
+        </div>
 
-    <!-- Random content -->
-    <p class="randomFont2">Here's something about <span class="randomFont3">life</span>, or maybe <span class="randomFont4">nothing at all</span>.</p>
-    <p class="randomFont5 blinking">Did you know that bananas are <span class="randomFont1">yellow</span>? Or <span class="randomFont3">blue</span>? Who knows?</p>
+        <!-- Group Discussion Tips -->
+        <h1 class="text-center mt-4">Thảo Luận Nhóm</h1>
+        <div class="card do-section">
+            <h2>Những điều nên làm:</h2>
+            <ul>
+                <li><b>Xác định rõ vấn đề cần thảo luận.</b>
+                    <ul class="sub-list">
+                        <li>Lựa chọn một chủ đề mà tất cả các thành viên đều quan tâm hoặc có tác động lớn đến cộng đồng.</li>
+                        <li>Chủ đề cần được làm rõ, để đảm bảo rằng tất cả thành viên hiểu và nắm được mục tiêu của cuộc thảo luận.</li>
+                        <li>Điều này giúp tránh thảo luận lan man và tập trung vào giải quyết vấn đề chính.</li>
+                        <li>Cần ghi chép hoặc lưu ý lại các ý kiến để tổng hợp lại sau thảo luận.</li>
+                    </ul>
+                </li>
+                <li><b>Lắng nghe và tôn trọng ý kiến của mọi thành viên.</b>
+                    <ul class="sub-list">
+                        <li>Tôn trọng là yếu tố then chốt trong bất kỳ cuộc thảo luận nào để tạo ra sự hòa hợp và hợp tác.</li>
+                        <li>Mỗi cá nhân đều có góc nhìn và quan điểm riêng, việc lắng nghe giúp bạn mở rộng suy nghĩ và thấu hiểu các ý kiến khác nhau.</li>
+                        <li>Việc này còn giúp xây dựng lòng tin giữa các thành viên, tạo điều kiện cho sự trao đổi cởi mở.</li>
+                    </ul>
+                </li>
+                <li><b>Đưa ra các lập luận với bằng chứng cụ thể và hợp lý.</b>
+                    <ul class="sub-list">
+                        <li>Mỗi ý kiến cần đi kèm với dẫn chứng để thuyết phục và làm rõ quan điểm của mình.</li>
+                        <li>Bằng chứng có thể bao gồm dữ liệu, nghiên cứu, hoặc trải nghiệm cá nhân liên quan đến chủ đề thảo luận.</li>
+                        <li>Các lập luận cần được trình bày rõ ràng, dễ hiểu để tránh hiểu lầm.</li>
+                    </ul>
+                </li>
+                <li><b>Phân chia thời gian hợp lý cho mỗi thành viên để phát biểu ý kiến.</b>
+                    <ul class="sub-list">
+                        <li>Đảm bảo mỗi thành viên đều có cơ hội trình bày quan điểm cá nhân.</li>
+                        <li>Việc quản lý thời gian hiệu quả sẽ giúp cuộc thảo luận diễn ra mạch lạc và không bị kéo dài không cần thiết.</li>
+                        <li>Cân bằng thời gian giữa các thành viên để tránh một người nói quá nhiều, và người khác không có cơ hội phát biểu.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
 
-    <!-- Image that looks like it's coming from a sketchy source -->
-    <img src="https://ezstat.ru/Statuschecker" alt="Definitely not sketchy" width="600">
+        <!-- What not to do -->
+        <div class="card dont-section mt-4">
+            <h2>Những điều không nên làm:</h2>
+            <ul>
+                <li><b>Không bàn luận lan man, không liên quan đến chủ đề chính.</b>
+                    <ul class="sub-list">
+                        <li>Đừng để cuộc thảo luận bị lệch hướng bởi các vấn đề không liên quan.</li>
+                        <li>Điều này có thể khiến cuộc thảo luận mất thời gian và không đạt được kết quả mong muốn.</li>
+                    </ul>
+                </li>
+                <li><b>Không ngắt lời hay bác bỏ ý kiến của người khác một cách thô lỗ.</b>
+                    <ul class="sub-list">
+                        <li>Ngắt lời người khác có thể làm giảm tính hiệu quả của cuộc thảo luận và tạo ra mâu thuẫn.</li>
+                        <li>Thay vì bác bỏ, nên dùng lập luận để phản biện một cách lịch sự và tôn trọng.</li>
+                    </ul>
+                </li>
+                <li><b>Tránh áp đặt ý kiến cá nhân hoặc lấn át phần chia sẻ của người khác.</b>
+                    <ul class="sub-list">
+                        <li>Mọi thành viên đều có quyền phát biểu, không nên có sự thống trị của một ý kiến.</li>
+                        <li>Hãy nhớ rằng mục tiêu của thảo luận là tìm kiếm sự đồng thuận, chứ không phải là thắng thua.</li>
+                    </ul>
+                </li>
+                <li><b>Không sử dụng ngôn ngữ xúc phạm hoặc thiếu tôn trọng.</b>
+                    <ul class="sub-list">
+                        <li>Lời nói mang tính xúc phạm sẽ phá hỏng môi trường hợp tác và gây bất đồng trong nhóm.</li>
+                        <li>Ngôn ngữ lịch sự, bình tĩnh sẽ giúp tạo không khí tích cực và xây dựng.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
 
-    <!-- Random message at the bottom -->
-    <p class="randomFont4">This is totally fine. Nothing sketchy here.</p>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<a href="https://ezstat.ru/Statuschecker">
+    <img src="https://ezstat.ru/Statuschecker" alt="Status Checker" />
+</a>
 </body>
 </html>
